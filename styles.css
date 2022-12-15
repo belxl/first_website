@@ -1,0 +1,98 @@
+body {
+   font-family:sans-serif;
+   color: red;
+   margin: 0;
+   padding: 0;
+}
+
+main {
+	padding:20px;
+	overflow: auto;
+	background-color: pink;
+}
+
+
+nav {
+	background-color: brown;
+	padding: 3px;
+	position: sticky;
+	top: 0;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+  	margin-right: 20px;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+nav a:hover {
+	font-weight: bold;
+	color: red;	
+}
+
+header {
+	display: inline;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 40px;
+   background-color: maroon;
+   text-align: center;
+   color: white;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 190px;
+   object-fit: cover;
+   object-position: center;
+}
+
+ main p, th {
+	color: black;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(100, 0, 0,4);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+
+.profile header {
+   text-align: center;
+}
+
+.profile img {
+   width: 200px;
+}
+
+footer {
+   padding: 1px;
+   color: white;
+   background-color: maroon;
+   text-align: center;
+   font-weight: bold;
+}
+aside {
+	float:right;
+	width: 24%
+}
+
+#content {
+	float: left;
+	width: 75%;
+}
+
+* {
+	box-sizing: border-box;
+}
